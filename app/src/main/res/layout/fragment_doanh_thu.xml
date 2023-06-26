@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.DoanhThuFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu từ: " />
+
+    <EditText
+        android:id="@+id/edDayStart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:drawableRight="@drawable/baseline_calendar"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Chọn ngày bắt đầu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đến ngày: " />
+
+    <EditText
+        android:id="@+id/edDayEnd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:drawableRight="@drawable/baseline_calendar"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Chọn ngày kết thúc" />
+
+    <Button
+        android:id="@+id/btnThongKe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống Kê" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Doanh thu: "
+        android:textColor="#CD0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

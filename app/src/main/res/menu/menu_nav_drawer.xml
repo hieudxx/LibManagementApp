@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_qlyPM"
+        android:icon="@drawable/baseline_home"
+        android:title="Quản lý phiếu mượn" />
+
+    <item
+        android:id="@+id/nav_qlyLS"
+        android:icon="@drawable/baseline_library_books"
+        android:title="Quản lý loại sách" />
+
+    <item
+        android:id="@+id/nav_qlyS"
+        android:icon="@drawable/baseline_menu_book"
+        android:title="Quản lý sách" />
+
+    <item
+        android:id="@+id/nav_qlyTV"
+        android:icon="@drawable/baseline_person"
+        android:title="Quản lý thành viên" />
+
+    <item android:title="Thống kê">
+        <menu>
+            <item
+                android:id="@+id/nav_qlyTop10"
+                android:icon="@drawable/baseline_bar_chart"
+                android:title="Top 10 sách mượn nhiều nhất" />
+
+            <item
+                android:id="@+id/nav_qlyDT"
+                android:icon="@drawable/baseline_attach_money"
+                android:title="Doanh thu" />
+
+        </menu>
+    </item>
+
+    <item android:title="Admin">
+        <menu>
+            <item
+                android:id="@+id/nav_qlyThuThu"
+                android:icon="@drawable/baseline_group_add"
+                android:title="Quản lý thủ thư" />
+        </menu>
+    </item>
+
+    <item android:title="Người dùng">
+        <menu>
+            <item
+                android:id="@+id/nav_qlyPass"
+                android:icon="@drawable/baseline_password"
+                android:title="Đổi mật khẩu" />
+
+            <item
+                android:id="@+id/nav_logOut"
+                android:icon="@drawable/baseline_logout"
+                android:title="Đăng xuất" />
+
+        </menu>
+    </item>
+
+
+</menu>
+

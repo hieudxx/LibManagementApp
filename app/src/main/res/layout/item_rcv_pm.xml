@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvMaPM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mã pm" />
+
+                    <TextView
+                        android:id="@+id/tvMaTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mã tv" />
+
+                    <TextView
+                        android:id="@+id/tvTenTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="tên tv" />
+
+                    <TextView
+                        android:id="@+id/tvMaTT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mã tt" />
+
+                    <TextView
+                        android:id="@+id/tvTenTT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="tên tt" />
+
+                    <TextView
+                        android:id="@+id/tvMaSach"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mã sách" />
+
+                    <TextView
+                        android:id="@+id/tvTenSach"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="tên sách" />
+
+                    <TextView
+                        android:id="@+id/tvNgay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ngày mượn" />
+
+                    <TextView
+                        android:id="@+id/tvTrangThai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="trạng thái" />
+
+                    <TextView
+                        android:id="@+id/tvTienThue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="tiền thuê" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imgDelete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/baseline_delete" />
+
+                    <ImageView
+                        android:id="@+id/imgEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_edit" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnTraSach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trả sách" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
